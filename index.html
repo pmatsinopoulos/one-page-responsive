@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+ 
+    <title>Erez Sobel's Portfolio Page</title>
+ 
+    <!-- Bootstrap core CSS -->
+    
+    
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.media.js" type="text/javascript"></script> <!-- JQuery Media Script -->
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/scripts.js"></script>
+ 
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ 
+    <script>
+      $(function () {
+        $('#work-exemple').tooltip();
+      });
+    </script>
+    <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+    </script>
+ 
+    <!-- Custom styles for this template go here -->
+    
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+ 
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->    
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+     <div class="container-fluid">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#">Erez Sobel</a>
+       </div>
+       <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#carousel-example-generic">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#video">Video</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+       </div><!-- navbar-collapse -->
+      </div> <!-- container-fluid -->
+    </nav> <!-- navbar ends here-->
+ 
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+ 
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+ 
+          <div class="item active">
+            <img src="img/portfolioheroimage.jpg" alt="work-space" class="img-responsive">
+          </div>
+        
+          <div class="item">
+            <img src="img/portfolioheroimage2.jpg" alt="writing-machine" class="img-responsive">
+          </div>
+        
+          <div class="item">
+            <img src="img/key_skateboard.jpg" alt="keyboad-and-skateboard" class="img-responsive">
+          </div>
+ 
+        </div> <!-- Wrapper end -->
+ 
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+ 
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+ 
+        <div class="carousel-caption">
+          <h1>Erez Sobel. Web Developer.</h1>
+          <p>
+            A full stack web developer in the training. <br>
+          </p>
+        </div>
+ 
+      </div> <!-- end of carousel -->
+ 
+      <div class="container-fluid">
+ 
+        <!-- Example row of columns -->
+        <div class="row" id="about" data-stellar-ration="2">
+          <div class="col-md-4 col-sm-12">
+            <h2>Portfolio Concept</h2>
+            <p>Services: Responsive Web Design<br>
+            Web Dev: Front End, Back-End<br>
+            Featured Work: <a href="#" title="Exemple of my work" id="work-exemple">Work 1</a>, Work 2, Work 3</p>
+            <p><a type="button" class="btn btn-default" data-toggle="tooltip" href="#" data-placement="bottom" title="More Information">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h2>Project Goals</h2>
+            <p>I can totally commit to the course amount of at least 4 hours a day. For the next two months I plan to center most of my attention on doing the course. </p>
+            <p><a type="button" class="btn btn-default" data-toggle="tooltip" href="#" data-placement="bottom" title="More Information">View details &raquo;</a></p>
+         </div>
+          <div class="col-md-4 col-sm-12">
+            <h2>Course Goals</h2>
+            <p>With this course i'm taking totally different career path than what I did so far. My goal is to be able to get hired as an entry level developer at the end of the course. I have some issues with the freelance option, but I don't decline it yet.</p>
+            <p><a type="button" class="btn btn-default" data-toggle="tooltip" href="#" data-placement="bottom" title="More Information">View details &raquo;</a></p>
+          </div>
+        </div>
+ 
+        <div class="row" id="work">
+          <div class="header">
+            <h2>Work</h2>
+          </div>
+          <div class="image box col-md-6 col-sm-8" id="0"></div>
+          <div class="image box col-md-6 col-sm-8" id="1"></div>
+          <div class="image box col-md-6 col-sm-8" id="2"></div>
+          <div class="image box col-md-6 col-sm-8" id="3"></div>
+          <div class="image box col-md-6 col-sm-8" id="4"></div>
+          <div class="image box col-md-6 col-sm-8" id="5"></div>
+        </div>
+ 
+        <div class="row" id="faq"> <!-- Start of FAQ section -->
+           <div class="header">
+            <h1>FAQ</h1>
+           </div> 
+          
+          <div class="row">
+            <h2 class="learn-more">Learn More</h2>
+            <div class="modal-button">
+              <!-- Large modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Resume</button>
+ 
+              <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">CV</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        <strong>Experience:</strong> I have an extensive experience as an Internet and Telephony Supporter. Other than that I have also an experience in several different fields such as a Hotel Receptionist and a Debt Collector.
+                      </p>
+                      <p>  
+                        <strong>Education:</strong> I have a BA diplome in Communication Studies and in Sociology. 
+                      </p>
+                      <iframe id="modalframe" src="add-files/cv-erez-sobel.pdf"></iframe>
+                    </div>
+                  </div> <!-- /.modal-content -->
+                </div>
+              </div> <!-- End of small modal -->
+              
+            </div> <!-- /.modal-button -->
+          </div> <!-- /.row -->
+ 
+ 
+ 
+          <div class="panel-group" id="accordion">
+            <!-- first accordion part -->
+            <div class="panel panel-default">
+ 
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <span class="glyphicon glyphicon-asterisk"></span>
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Why did you decide to become a web developer?
+                  </a>
+                </h4>
+              </div>
+ 
+              <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.   
+                </div>
+              </div>
+ 
+            </div> <!-- end of first accordion part -->
+ 
+            <!-- second accordion part -->
+            <div class="panel panel-default">
+ 
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <span class="glyphicon glyphicon-asterisk"></span>
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    Collapsible Group Item #2
+                  </a>
+                </h4>
+              </div>
+ 
+              <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
+                </div>
+              </div>
+ 
+            </div> <!-- end of second accordion part -->
+ 
+            <!-- third accordion part -->
+            <div class="panel panel-default">
+ 
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <span class="glyphicon glyphicon-asterisk"></span>
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    Collapsible Group Item #3
+                  </a>
+                </h4>
+              </div>
+ 
+              <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
+                </div>
+              </div>
+ 
+            </div> <!-- end of third accordion part -->
+          </div> <!-- end of accordion -->
+        </div> <!-- end of FAQ row -->
+ 
+      <div class="row" id="contact"> <!-- Start of contact section --> 
+ 
+        <div class="header">
+          <h1>Contact info</h1>
+        </div>
+        <div class="contact-info">
+          <div class="contact-details col-lg-4 col-md-4"> <!-- Start of first contact column -->
+            <div class="info-title">
+              <h4>
+                <span class="glyphicon glyphicon-info-sign"></span>
+                If you'd like, you may contact me in the following options:
+              </h4>
+            </div>  
+            <div class="office block">
+              <p><span class="glyphicon glyphicon-home"></span> Berlin</p>
+              <p><span class="glyphicon glyphicon-phone"></span>
+                In private message.
+              </p>
+            </div>
+            <div class="email block">
+              <p>
+                <span class="glyphicon glyphicon-envelope"></span>
+                Email me at <a href="mailto:sobelerez@something.com">sobelerez@yahoo.com</a>
+              </p>
+            </div>
+            <div class="address-map">
+              <div id="map-canvas" style="width: 300px; height: 200px">
+              </div>
+            </div>
+          </div> <!-- End of first contact column -->
+ 
+ 
+          <div class="contact-form col-lg-8 col-md-8"> <!-- Start of second contact column -->
+            <h3>Or just message me here:</h3>
+            <form>
+              <div class="form-group row">
+                <div class="col-md-6 contact-name">
+                  <label for="name">Name*</label>
+                  <input type="text" id="name" class="form-control" required="required" placeholder="Enter your name">
+                </div>
+                <div class="col-md-6 contact-phone">
+                  <label for="phone">Phone No. (Optional)</label>
+                  <input type="phone" id="phone" class="form-control" placeholder="Enter phone number">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="email">Email Address*</label>
+                <input type="email" id="email" class="form-control" required="required" minlength="8" placeholder="Enter your email address"
+                title="Minimum of 8 characters">
+                
+                <div class="message-box">
+                  <label for="message">Message*</label>      
+                  <p id="char-count"></p>
+                  <textarea class="form-control comment-box" id="message" style="resize:none" cols="40" rows="5" required="required" placeholder="Type your message here"></textarea>
+                  <button type="submit" id="submit-btn" class="btn btn-default">Send</button>
+                </div>
+              </div>
+            </form>
+          </div> <!-- End of second contact column -->
+ 
+ 
+          <div class="return-top">
+            <a type="button" href="#" data-toggle="tooltip" title="Return to the top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+          </div>
+ 
+        </div> <!-- /.contact-info -->
+ 
+      </div> <!-- End of contact section -->
+ 
+    </div> <!-- /container -->
+ 
+    <footer> 
+      <div class="copyfoot">
+        <p>&copy; Erez Sobel 2015</p>
+      </div>
+      <div class="twitter-button"> 
+        <a href="https://twitter.com/erez_so" class="twitter-follow-button" data-show-count="false" data-size="large">Follow me on Twitter</a>
+      </div>
+      <div class="fb-like">
+        <iframe src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fantennas2heavenblog&amp;width=130&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21&amp;appId=195705247170010" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:130px; height:21px;" allowTransparency="true"></iframe>
+      </div>
+    </footer>
+ 
+    <script type="text/javascript">
+      var $root = $('html, body');
+        $('.navbar-nav a').click(function() {
+            var href = $.attr(this, 'href');
+            $root.animate({
+                scrollTop: $(href).offset().top
+            }, 500, function () {
+                window.location.hash = href;
+            });
+            return false;
+        });
+    </script>
+  </body>
+</html>

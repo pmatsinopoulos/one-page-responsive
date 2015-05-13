@@ -1,0 +1,345 @@
+* { box-sizing: border-box;}
+
+body { 
+  background-color: #e6f7ed;
+  color: #34495e;
+  position: relative;
+  text-align: center;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+p a:visited {
+  color: orange;
+}
+
+/*-- hero img carousel --*/
+
+.carousel-caption {
+  z-index: 0;
+  top: 31%;
+}
+
+.carousel img {
+  opacity: 0.4;
+}
+
+.carousel-caption h1 {
+  color: #ee2731 ;
+}
+
+.carousel-caption p {
+  color: black;
+  font-size: 175%;
+  font-weight: 600;
+  
+}
+
+.row {
+  color: black ;
+  margin-top: 70px ;
+  padding-top: 50px;
+}
+
+/*-- work --*/
+
+#work-cover {
+/*  background-image: url("../img/parallax-image.jpg");*/
+/*  background-attachment: fixed;*/
+/*  background-size: cover;*/
+  color: #e6f7ed;
+  padding: 0 100px;
+}
+
+#about {
+/*  background-color: aqua;*/
+}
+
+#work {
+  text-align: center;
+  width: 65%;
+  margin: 0 17%;
+}
+
+.image {
+  box-sizing: border-box;
+  border: 2px solid pink;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  display: inline-block;
+  position: relative;
+}
+
+.info {
+  display: inline-block;
+  color: lightgreen;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+  position: absolute;
+  top: 15%;
+  left: 22%;
+}
+
+.proj-title {
+  font-weight: 100;
+}
+
+.image-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/*-- faq --*/
+
+#faq p {
+  text-align: left;
+}
+
+.panel-group {
+  text-align: left;
+}
+
+.panel-heading {
+  padding: 0;
+}
+
+.panel-title {
+  background-color: #a1aca5;
+  color: black;
+  padding: 5px;
+}
+
+.panel-body {
+  background-color: #5c625e;
+  color: #e6f7ed;
+}
+
+#faq {
+  width: 65%;
+  margin: 0 17%;
+}
+
+.learn-more {
+  text-align: left;
+  float: left;
+  margin-left: 15px;
+}
+
+.modal-button {
+  float: right;
+  padding: 15px;
+}
+
+.modal-body {
+  height: 500px;
+}
+
+.modal-body p {
+  padding-left: 7px;
+}
+
+#modalframe {
+  padding: 10px;
+  width: 100%;
+  height: 80%;
+}
+
+.glyphicon-asterisk {
+  font-size: 60%;
+  top: -1;
+}
+
+.table-script {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+th {
+  padding: 10px 50px;
+  padding-left: 0;
+  height: 50px;
+}
+
+td {
+  text-align: left;
+  padding: 7px 0;
+}
+
+.table-hover .feature-row:hover {
+  background-color: lightgray;
+}
+
+/*-- contact --*/
+
+.contact-info {
+  color: #e6f7ed ;
+  text-align: left ;
+  padding: 1px 2% 30px;
+  width: 100% ;
+  float: left;
+}
+
+
+.contact-info a {
+  color: brown;
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+.block {
+  font-size: 1.25em;
+  padding-left: 0;
+}
+
+.info-title {
+  padding-top: 0 ;
+  padding-bottom: 8px ;
+}
+
+#contact .glyphicon {
+  top: 0;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.glyphicon-envelope {
+  top: 3px;
+}
+
+#contact {
+  background-image: url("../img/parallax-image.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: #e6f7ed;
+  padding: 0 100px;
+}
+
+#contact h1 {
+  text-align: left;
+  padding-left: 41px;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+  margin-top: 60px ;
+}
+
+#contact .contact-deails {
+  padding-right: 96px;
+}
+
+/*-- form --*/
+
+.contact-form .btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #e6f7ed;
+  margin-top: 10px;
+}
+
+.contact-form .row {
+  margin-top: 0;
+  padding-top: 0;
+  color: #e6f7ed;
+}
+
+.contact-form .col-md-6 {
+  padding: 0;
+}
+
+.contact-form h3 {
+  margin-top: 11px;
+  margin-left: -16px;
+}
+
+.message-box {
+  padding-top: 1.5em;
+}
+
+#char-count {
+  float: right;
+  margin-right: 1em;
+}
+
+/*-- /form --*/
+
+.return-top {
+  margin-right: -32;
+  margin-top: 50px;
+  width: 33px;
+  height: 33px;
+  background-color: black;
+  float: right;
+}
+
+.return-top a {
+  display: inline;
+  margin-right: 10px;
+}
+
+#contact .glyphicon-arrow-up {
+  color: #e6f7ed;
+  font-size: 1.25em;
+  top: 5px;
+  left: 4px;
+}
+
+.contact-form .contact-name {
+  padding-right: 5px;
+}
+
+.contact-form .contact-phone {
+  padding-left: 5px;
+}
+
+/*-- /contact -- */
+
+/*-- footer-- */
+
+footer {
+  padding: 0;
+  text-align: left;
+}
+
+.copyfoot {
+  display: inline-block;
+  padding: 0;
+}
+
+footer p {
+  font-size: 1.025;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-left: 35px;
+}
+
+.fb-like {
+  float: right;
+  margin: 6px 0;
+  display: inline-block;
+  float: right;
+  padding-top: 8px;
+}
+
+.twitter-button {
+  float: right;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3 {
+  font-family: 'Arimo', Helvetica, Arial, sans-serif;
+}
+
+p,
+li {
+  font-family: 'Lora', Lucida Bright, serif;
+}

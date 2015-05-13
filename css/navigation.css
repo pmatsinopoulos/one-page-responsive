@@ -1,0 +1,27 @@
+.nav {
+	float: right;
+}
+
+.navbar {
+	background-color: #e6f7ed;
+}
+
+#navbar .active a {
+	color: #2facc2;
+}
+
+#navbar ul li a,
+.navbar-inverse .navbar-brand {
+	color: black;
+	font-weight: 600;
+	transition: 300ms;
+}
+
+#navbar a:hover {
+	color: #2facc2;
+	transition: 600ms;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: black;
+}

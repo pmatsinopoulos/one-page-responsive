@@ -1,0 +1,89 @@
+* { box-sizing: border-box; }
+
+body { 
+	background-color: #e6f7ed ;
+	color: #34495e;
+}
+
+.container {
+	display: block;
+	width: 80% ;
+	margin: 0 auto ;
+	padding-top: 50px;
+}
+
+.header h1 {
+	text-align: center ;
+	margin-bottom: 20px;
+	margin-top: 20px ;
+}
+
+selector {
+	position: relative ;
+}
+
+.info {
+	color: #e6f7ed ;
+	background-color: #0eb04b ;
+	text-align: center ;
+	padding: 0 2% ;
+	width: 50% ;
+	margin-left: 25% ;
+	padding-top: 1px ;
+	padding-bottom: 15px ;
+}
+
+.block {
+	width: auto ;
+	border: 1px solid black ;
+	padding: 2% 9% ;
+	font-weight: 400 ;
+}
+
+.office {
+	padding-bottom: 28px;
+	padding-right: 33px;
+}
+
+.email {
+	margin-top: 5%;
+}
+
+.email p {
+	padding-top: 6px;
+}
+
+.email a {
+	color: blue;
+}
+
+.top {
+	padding-top: 0 ;
+	padding-bottom: 8px ;
+}
+
+.glyphicon {
+	top: 0;
+	font-size: 20px;
+}
+
+.glyphicon-envelope {
+	top: 3px;
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3 {
+	font-family: 'Arimo', Helvetica, Arial, sans-serif;
+}
+
+p,
+li {
+	font-family: 'Lora', Lucida Bright, serif;
+}
+
+h3 {
+	font-weight: 100 ;
+}

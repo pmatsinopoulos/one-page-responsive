@@ -1,0 +1,47 @@
+.glyphicon-home {
+	color: white;
+}
+
+.navbar {
+	background-color: #0eb04b;
+	position: fixed;
+	width: 100%;
+	padding: 12px 28px 0px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	z-index: 1;
+	font-size: 17px
+	float: right;
+}
+
+
+
+.navbar a {
+	color: white;
+	transition: color 600ms;
+	padding: 22px 5px;
+}
+
+.navbar a:hover {
+	color: grey;
+	text-decoration: none;
+	background-color: black;
+}
+
+.navbar ul {
+	float: right;
+}
+
+.navbar ul li {
+	display: inline;
+}
+
+.navbar ul li a {
+	color: white;
+}
+
+#contact {
+	background-image: url("../img/parallax-image.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
