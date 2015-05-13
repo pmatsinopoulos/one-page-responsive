@@ -5,6 +5,7 @@ body {
   color: #34495e;
   position: relative;
   text-align: center;
+  margin-top: 50px;
 }
 
 body a:hover {
